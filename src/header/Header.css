@@ -1,0 +1,83 @@
+.header{
+    position: absolute;
+    width: 375px;
+    height: 428px;
+    left: 0px;
+    top: 0px;
+    background-color: #171725;
+}
+
+.Silver{
+    width: 327px;
+    height: 40px;
+    margin-top: 2rem;
+    padding-left: 0.8rem;
+    /* Header 3 (32) */
+    
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.para{
+    width: 327px;
+    height: 48px;
+    padding-left: 0.8rem;
+
+    /* Paragraph 1 (16) */
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: -0.005em;
+
+    /* Grey 05 */
+
+    color: #B5B5BE;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.phonenetwork{
+    width: 375px;
+}
+
+.network{
+    color:white;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.right-icon{
+    color: white;
+    font-size: 20px;
+}
+
+.timer{
+    color: white;
+    font-size: 20px;
+}
+.dot{
+    color: white;
+}

@@ -1,0 +1,148 @@
+.overlaycontainer{
+    box-sizing: border-box;
+    position: absolute;
+    width: 343px;
+    height: 416px;
+    left: 16px;
+    top: 252px;
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Grey 09 */
+    
+    border: 1px solid #FAFAFB;
+    /* Shadow - Low */
+    
+    box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
+    border-radius: 8px;
+}
+.overlaycontainer .overlayp{
+    height: 100px;
+    width: 145px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    width: 100%;
+    height: 24px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+
+    /* Title 3 (14) */
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Grey 05 */
+
+    color: #B5B5BE;
+}
+
+.overlaytitle{
+    width: 81px;
+    height: 56px;
+    margin-left: 1rem;
+    /* Header 1 (48) */
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 50px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.5px;
+
+    /* Grey 01 */
+
+    color: #171725;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.overlink{
+    width: 123px;
+    height: 200px;
+    margin-top: 150rem;
+    margin-left: 1rem;
+
+    /* Paragraph 1 (16) */
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.005em;
+
+    /* Blue-Dark */
+
+    color: #0062FF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fas.fa-arrow-right{
+    position: absolute;
+    left: 62.5%;
+    right: 12.5%;
+    top: 25%;
+    bottom: 25%;
+    
+    /* Blue-Dark */
+    
+    border: 2px solid #0062FF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.btn.btn-primary{
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 24px;
+    top: 296px;
+
+    background: #171725 !important;
+    border-radius: 4px;
+}
+
+.update{
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 115px;
+    top: 372px;
+
+    /* Paragraph 3 (14) */
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    /* Grey 05 */
+
+    color: #B5B5BE;
+}

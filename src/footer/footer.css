@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 3rem;
+    box-sizing: border-box;
+    height: 100px;
+    width: 375px;
+    border-top: 2px solid #E2E2EA;
+    position: absolute;
+}
+
+.footer-icon{
+    margin-top: 25px;
+    font-size: 50px;
+    margin-left: 35px;
+}
